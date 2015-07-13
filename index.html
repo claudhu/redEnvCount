@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      
+      
+      
+      
+    <meta charset="utf-8">
+    <title>紅包計算程式 v0.5beta by ClaudHu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="./css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="./css/flat-ui.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+      
+      
+
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <form id="my_form">
+    <div class="col-lg-12 col-centered">
+        <h1 > 紅包計算程式 v0.5beta</h1>
+    </div>
+      <div class="container">
+    <!-- /.container -->
+      <div class="row">
+    <div class="location col-lg-3 col-md-12 col-sm-12">
+        <h3 class="demo-panel-title">地區</h3>
+<label class="radio">
+<input type="radio" name="optionsRadios" id="optionsRadios1" value="1" data-toggle="radio" class="custom-radio" required ><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            台北市</label>
+          
+<label class="radio">        
+<input type="radio" name="optionsRadios" id="optionsRadios1" value="2" data-toggle="radio" class="custom-radio"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            台北市以外都會區
+          </label>
+      
+      
+<label class="radio"> 
+<input type="radio" name="optionsRadios" id="optionsRadios1" value="3" data-toggle="radio" class="custom-radio"><span   class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            其他地區
+          </label>
+          
+          
+      </div>
+          
+          
+              <div class="location col-lg-3 col-md-12 col-sm-12">
+        <h3 class="demo-panel-title">交情</h3>
+<label class="radio">
+<input type="radio" name="friendship" id="optionsRadios1" value="1" data-toggle="radio" class="custom-radio"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+           好的不行的朋友、十大恩人</label>
+          
+<label class="radio">        
+<input type="radio" name="friendship" id="optionsRadios1" value="2" data-toggle="radio" class="custom-radio"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            世交、常往來親戚、私交好友、重要客戶
+          </label>
+      
+      
+<label class="radio"> 
+<input type="radio" name="friendship" id="optionsRadios1" value="3" data-toggle="radio" class="custom-radio"><span              class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            普通親戚、常往來的朋友、客戶
+          </label>
+                  
+<label class="radio"> 
+<input type="radio" name="friendship" id="optionsRadios1" value="3" data-toggle="radio" class="custom-radio"><span              class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            不熟鄰居、久未聯絡的親戚/朋友、點頭之交
+          </label>
+          
+          
+      </div>
+          
+          
+          
+            <div class="location col-lg-3 col-md-12 col-sm-12">
+        <h3 class="demo-panel-title">餐廳</h3>
+<label class="radio">
+<input type="radio" name="restaurant" id="optionsRadios1" value="5" data-toggle="radio" class="custom-radio"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+           五星級</label>
+          
+<label class="radio">        
+<input type="radio" name="restaurant" id="optionsRadios1" value="4" data-toggle="radio" class="custom-radio"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            四星級
+          </label>
+      
+      
+<label class="radio"> 
+<input type="radio" name="restaurant" id="optionsRadios1" value="3" data-toggle="radio" class="custom-radio"><span              class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            大型場地
+          </label>
+                  
+<label class="radio"> 
+<input type="radio" name="restaurant" id="optionsRadios1" value="2" data-toggle="radio" class="custom-radio"><span              class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            一般
+          </label>
+                
+                <label class="radio"> 
+<input type="radio" name="restaurant" id="optionsRadios1" value="1" data-toggle="radio" class="custom-radio"><span              class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            自宅
+          </label>
+          
+          
+      </div>
+          
+<div class="people col-lg-3 col-md-12 col-sm-12">
+        <h3 class="demo-panel-title">人數</h3>
+<label class="radio">
+<input type="radio" name="people" id="optionsRadios1" value="1" data-toggle="radio" class="custom-radio"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+           單獨</label>
+          
+<label class="radio">        
+<input type="radio" name="people" id="optionsRadios1" value="2" data-toggle="radio" class="custom-radio"><span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            攜伴
+          </label>
+      
+      
+<label class="radio"> 
+<input type="radio" name="people" id="optionsRadios1" value="3" data-toggle="radio" class="custom-radio"><span              class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            三人
+          </label>
+                  
+<label class="radio"> 
+<input type="radio" name="people" id="optionsRadios1" value="4" data-toggle="radio" class="custom-radio"><span              class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+            四人
+          </label>
+
+
+          
+          
+      </div>
+                        <div class="col-xs-12">
+    
+        <a href="#fakelink" id="btn1" class="btn btn-block btn-lg btn-primary">確認計算</a>
+    </form>
+    </div>  
+        
+          
+      </div>
+        <div name="foot col-xs-12">
+          
+            <p class=" text-center"> CreateBy Claud Hu<br>各位大大，遇到4記得要+200元喔</p>
+            
+            
+        
+          
+          </div>
+          
+
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="./js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/vendor/video.js"></script>
+    <script src="./js/flat-ui.min.js"></script>
+
+          <script>
+
+              
+
+              
+$("#btn1").click(function(){
+    
+        var location= $('input[name=optionsRadios]:checked', '#my_form').val();   
+        var friendship= $('input[name=friendship]:checked', '#my_form').val();   
+        var hotel_star= $('input[name=restaurant]:checked', '#my_form').val();   
+        var people= $('input[name=people]:checked', '#my_form').val();   
+   
+    var totalMoney =1500;
+    var fri_base=400;
+    var res_base=200;
+    
+    if(location==1)
+       {
+        fri_base=400;
+        res_base=200;
+        totalMoney=people*(1000+res_base*hotel_star)+fri_base*friendship;}
+    else if(location==2){
+        fri_base=300;
+        res_base=200;
+        totalMoney=people*(1000+res_base*hotel_star)+fri_base*friendship;
+    }else if(location==3){
+        fri_base=400;
+        res_base=100;
+        totalMoney=people*(1000+res_base*hotel_star)+fri_base*friendship;
+    };
+    
+  alert("請準備： " + totalMoney +  "大洋" );
+});
+          
+          </script>
+          
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- hello -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8204980141371254"
+     data-ad-slot="5694477722"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+          
+  </body>
+</html>
